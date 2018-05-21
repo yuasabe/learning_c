@@ -9,6 +9,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n");
+    int testInteger = 0;
+    printf("Enter number: ");
+    scanf("%d",&testInteger);
+    printf("Number =  %d \n",testInteger);
     return 0;
 }
