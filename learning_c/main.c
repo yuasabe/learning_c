@@ -9,9 +9,13 @@
 #include <stdio.h>
 
 int main() {
-    int testInteger = 0;
-    printf("Enter number: ");
-    scanf("%d",&testInteger);
-    printf("Number =  %d \n",testInteger);
+    int test1;
+    printf("Enter a number: ");
+    scanf("%d",&test1);
+    if(test1 < 0) {
+        printf("The number is less than 0\n");
+    } else {
+        printf("hehe %d\n", test1);
+    }
     return 0;
 }
